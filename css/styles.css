@@ -83,12 +83,27 @@ footer li a{
    font-size: 30px;
 }
 
+#slide1 img{
+   width: 100%;
+   height: 100%;
+}
 
+#slide2 img{
+   width: 100%;
+   height: 100%;
+}
+
+#slide3 img{
+   width: 100%;
+   height: 100%;
+}
 
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
-
+.listgroup{
+   color: white;
+}
 
 .listgroup a{
    color: inherit;
@@ -104,6 +119,10 @@ footer li a{
 
 .listgroup li{
    list-style: none;
+}
+
+.listgroup li a{
+  color: black;
 }
 
 /*......................................
@@ -134,6 +153,7 @@ footer li a{
 
 .contact_dtls{
    padding-top: 30px;
+   color: white;
 }
 
 .left_tab{
@@ -174,7 +194,6 @@ footer li a{
    }
    .item h4{
       font-size: 30px;
-      color: blue;
    }
 
 }
@@ -183,7 +202,7 @@ footer li a{
 @media (min-width: 1200px) {
    .item h4{
       font-size: 50px;
-      color: red;
+      color: grey;
    }
 }
 
