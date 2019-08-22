@@ -1,21 +1,43 @@
-/*
 
-My Custom CSS
-=============
+/* --------------------------------------
+   Header
+   -------------------------------------- */
 
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
+.bg a img{
+   width: 108px;
+   height: 22px;
+}
 
-*/
 
+/*----------------------------------------
+moreInfo
+----------------------------------------*/
+
+#moreInfo{
+   background: black;
+   padding-bottom: 20px;
+}
+#moreInfo .col-sm-6{
+   padding-top: 20px;
+}
+
+/*---------------------------------------
+Background
+---------------------------------------*/
+.bg{
+    width: 100%;
+   background: url("../images/bg.jpg") center no-repeat;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
 
 /* --------------------------------------
    Features
    -------------------------------------- */
 
-   #features {
+#features {
    text-align: center;
+   padding-top: 20px;
 }
 
 #features img {
@@ -26,43 +48,35 @@ Notes:	 Hand coded for Udemy.com
    Footer
    -------------------------------------- */
 footer{
-   background: #333;
+   background-color: black;
    color: #eee;
    padding: 20px;
+   margin-top: 20px;
 }
 
 footer li{
       list-style: none;
-   }
+}
 
+footer li a{
+   color: #cfe0ef;
+}
 
+.copyright{
+   padding-top: 30px;
+}
 
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
-#searchInput{
-   width: 100px;
-} 
-   
    
 /* --------------------------------------
    Carousel
    -------------------------------------- */
 #myCarousel{
    margin-top: 60px;
+   padding-top: 20px;
 }
 
 #myCarousel .item{
    height: 400px;
-}
-#slide1{
-   background: url("../images/l1.jpg") top center no-repeat;
-}
-#slide2{
-   background: url("../images/l1.jpg") top center no-repeat;
-}
-#slide3{
-   background: url("../images/l1.jpg") top center no-repeat;
 }
 
 .item h4{
@@ -110,7 +124,6 @@ footer li{
 }
 
 #tab2 img {
-   margin-left: 50px;
    margin-top: 20px;
    padding-bottom: 20px;
 }
@@ -121,6 +134,11 @@ footer li{
 
 .contact_dtls{
    padding-top: 30px;
+}
+
+.left_tab{
+   z-index: 2;
+   background-color: grey;
 }
 
 /* --------------------------------------
@@ -135,6 +153,15 @@ footer li{
 
    #tab1 iframe{
    text-align: center;
+}
+
+   #tab2 img {
+   margin-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 120px;
+   width: 150px;
+
+}
 
 }
 
@@ -145,16 +172,6 @@ footer li{
    #myCarousel .item {
     height: 310px;
    }
-
-   #slide1{
-   background: url("../images/m1.jpg") top center no-repeat;
-   }
-   #slide2{
-      background: url("../images/m2.jpg") top center no-repeat;
-   }
-   #slide3{
-      background: url("../images/m3.jpg") top center no-repeat;
-   }
    .item h4{
       font-size: 30px;
       color: blue;
@@ -164,17 +181,9 @@ footer li{
 
 /* Large desktop */
 @media (min-width: 1200px) {
-   #slide1{
-      background: url("../images/l1.jpg") top center no-repeat;
-   }
-   #slide2{
-      background: url("../images/l2.jpg") top center no-repeat;
-   }
-   #slide3{
-      background: url("../images/l3.jpg") top center no-repeat;
-   }  
    .item h4{
       font-size: 50px;
       color: red;
    }
 }
+
